@@ -1,5 +1,10 @@
 import re
 
+# eval each clause
+def eval_cl(clau):
+    clau = sorted(set(filter(None,re.split(r'[|)(]+',clau))))
+    print(clau,'\n')
+    
 # define symbols
 sym_AND = '&'
 
@@ -13,3 +18,7 @@ cl_list = sorted(in_exp.split(sym_AND), key=len)
 
 # list of variables
 vr_list = sorted(set(filter(None,re.split(r'[|&)(~]+',in_exp))))
+
+for i in cl_list:
+    print(i)
+    eval_cl(i)
