@@ -1,3 +1,5 @@
+import re
+
 # define symbols
 sym_AND = '&'
 
