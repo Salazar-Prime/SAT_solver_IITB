@@ -3,11 +3,11 @@
 #### Website to run this code: https://www.onlinegdb.com/
 <br/>
 
-# Sample Input
+### Sample Input
 
 ( a |b|( ~c)) & ((~a )|c) & ((~b)|c )
 
-# Sample Output
+### Sample Output
 
 TRUTH TABLE<br/>
 ============<br/>
