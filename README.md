@@ -2,6 +2,7 @@
 
 #### Website to run this code: https://www.onlinegdb.com/
 <br/>
+
 # Sample Input
 
 ( a |b|( ~c)) & ((~a )|c) & ((~b)|c )
